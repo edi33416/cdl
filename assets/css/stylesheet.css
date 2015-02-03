@@ -2,12 +2,22 @@
       Main elements
 -----------------------*/
 a {
-  color: #90918D;
+  color: #006898;
 }
 
 a:hover {
   text-decoration: none;
-  color: #90918D;
+  color: #DDD4F6;
+}
+
+.unselectable {
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
 }
 
 /*-----------------------
@@ -20,7 +30,7 @@ a:hover {
   top: 0px;
   z-index: 10;
   padding-top: 10px;
-  background-color: white;
+  background-color: #e88b0c;
 }
 
 #menu #logo img {
@@ -55,7 +65,11 @@ a:hover {
 }
 
 #content .section-title {
-  color: #90918D;
+  color: #006898;
+}
+
+#content .main-title {
+  color: #e88b0c;
 }
 
 
@@ -92,13 +106,13 @@ a:hover {
     Box with picture
 ------------------------*/
 #content .picture-box {
-  background: url(../images/cdl_team.png) 50% 0 no-repeat fixed;
+  background: url(../images/profile.jpg) 50% 0 no-repeat fixed;
   background-position: center;
   background-size: cover;
 }
 
 #content .picture-box .picture-canvas {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.5);
   width: 100%;
   height: 100%;
 }
