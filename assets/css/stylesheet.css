@@ -2,12 +2,12 @@
       Main elements
 -----------------------*/
 a {
-  color: #006898;
+  color: #217bbf;
 }
 
 a:hover {
   text-decoration: none;
-  color: #DDD4F6;
+  color: #DDD4F6;   
 }
 
 .unselectable {
@@ -30,7 +30,7 @@ a:hover {
   top: 0px;
   z-index: 10;
   padding-top: 10px;
-  background-color: #e88b0c;
+  background-color: #f7941e;
 }
 
 #menu #logo img {
@@ -65,11 +65,11 @@ a:hover {
 }
 
 #content .section-title {
-  color: #006898;
+  color: #217bbf;
 }
 
 #content .main-title {
-  color: #e88b0c;
+  color: #f7941e;
 }
 
 
