@@ -2,12 +2,12 @@
       Main elements
 -----------------------*/
 a {
-  color: #448AFF;
+  color: #212121;
 }
 
 a:hover {
   text-decoration: none;
-  color: #FFE0B2;   
+  color: #1277bd;   
 }
 
 .unselectable {
@@ -75,11 +75,11 @@ a:hover {
 }
 
 #content .section-title {
-  color: #212121;
+  color: #1277bd;
 }
 
 #content .main-title {
-  color: #F57C00;
+  color: #FF9800
 }
 
 
