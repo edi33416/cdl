@@ -2,12 +2,12 @@
       Main elements
 -----------------------*/
 a {
-  color: #217bbf;
+  color: #448AFF;
 }
 
 a:hover {
   text-decoration: none;
-  color: #DDD4F6;   
+  color: #FFE0B2;   
 }
 
 .unselectable {
@@ -20,6 +20,16 @@ a:hover {
   user-select: none;
 }
 
+/* color palette */
+.dark-primary-color    { background: #F57C00; }
+.default-primary-color { background: #FF9800; }
+.light-primary-color   { background: #FFE0B2; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #448AFF; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+
 /*-----------------------
     Main menu
 -----------------------*/
@@ -30,7 +40,7 @@ a:hover {
   top: 0px;
   z-index: 10;
   padding-top: 10px;
-  background-color: #f7941e;
+  background-color: #FF9800;
 }
 
 #menu #logo img {
@@ -65,11 +75,11 @@ a:hover {
 }
 
 #content .section-title {
-  color: #217bbf;
+  color: #212121;
 }
 
 #content .main-title {
-  color: #f7941e;
+  color: #F57C00;
 }
 
 
