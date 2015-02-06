@@ -296,6 +296,10 @@ a:hover {
         Contact
 ------------------------*/
 
+.footer-item {
+  color: #90918D;
+}
+
 #content .footer {
   width: 100%;
   height: 320px;
